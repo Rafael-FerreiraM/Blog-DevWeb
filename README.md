@@ -27,8 +27,11 @@ Este projeto é um sistema de cadastro de produtos com um sistema de login desen
 ## Configuração do Banco de Dados
 
 - Por fim, configure as credenciais do banco de dados:
+  
 'Usuario' => 'seu_usuario',
+
 'Senha' => 'sua_senha',
+
 'database' => 'nome_banco_de_dados',
 
 
