@@ -1,4 +1,4 @@
-# Sistema de Cadastro de Produtos com Sistema de Login
+# Sistema de Cadastro de Produtos com CodeIgniter 4
 
 Este projeto é um sistema de cadastro de produtos com um sistema de login desenvolvido em PHP 8.3, utilizando MySQL como banco de dados. A interface é construída com o auxílio do framework CodeIgniter na versão 4.4.4, e é estilizada com o framework de front-end Bootstrap, usando um template de painel AdminLTE para facilitar o desenvolvimento.
 
