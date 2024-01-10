@@ -15,7 +15,7 @@ Este projeto é um sistema de cadastro de produtos com um sistema de login desen
 - PHP 7.4 +
 - MySQL
 - CodeIgniter 4.4.4
-- Bootstrap
+- Apache
 
 ## Instalação
 
