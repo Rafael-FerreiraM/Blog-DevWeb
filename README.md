@@ -1,68 +1,37 @@
-# CodeIgniter 4 Application Starter
+# Sistema de Cadastro de Produtos com Sistema de Login
 
-## What is CodeIgniter?
+Este projeto é um sistema de cadastro de produtos com um sistema de login desenvolvido em PHP 8.3, utilizando MySQL como banco de dados. A interface é construída com o auxílio do framework CodeIgniter na versão 4.4.4, e é estilizada com o framework de front-end Bootstrap, usando um template de painel AdminLTE para facilitar o desenvolvimento.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Funcionalidades Principais
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+- **Sistema de Login**: É necessário logar para testar o projeto, nos arquivos execute o script.sql para criar um usuario no banco.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+- **Cadastro de Produtos**: Adicione, atualize, visualize e exclua produtos.
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+- **Bootstrap e Template de Painel de Admin**: Utilizando o poder do Bootstrap, a interface é responsiva e intuitiva. O template de painel AdminLTE facilita a organização e navegação.
 
-## Installation & updates
+## Requisitos do Ambiente
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+- PHP 7.4 +
+- MySQL
+- CodeIgniter 4.4.4
+- Bootstrap
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+## Instalação
 
-## Setup
+1. Clone o repositório: `git clone https://github.com/Rafael-FerreiraM/PainelDevWeb.git`
+2. Configure o banco de dados.
+3. Importe o script SQL fornecido no diretório `database` para criar as tabelas necessárias.
+4. Inicie o servidor PHP/Apache ou configure o seu servidor web para apontar para o diretório do projeto.
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+## Configuração do Banco de Dados
 
-## Important Change with index.php
+- Por fim, configure as credenciais do banco de dados:
+'Usuario' => 'seu_usuario',
+'Senha' => 'sua_senha',
+'database' => 'nome_banco_de_dados',
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+![image](https://github.com/Rafael-FerreiraM/Desafio-Programa-Best-Minds-2024-/assets/101290871/0bab4cc6-411a-4151-8b4d-9d60fa339d90)
 
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> **Warning**
-> The end of life date for PHP 7.4 was November 28, 2022. If you are
-> still using PHP 7.4, you should upgrade immediately. The end of life date
-> for PHP 8.0 will be November 26, 2023.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-# PainelDevWeb
