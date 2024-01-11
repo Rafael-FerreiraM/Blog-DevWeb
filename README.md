@@ -34,7 +34,7 @@ digite: `php spark serve` para iniciar o projeto.
 
 'Senha' => 'sua_senha',
 
-'database' => 'nome_banco_de_dados',
+'database' => 'sistema_web',
 
 
 
