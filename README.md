@@ -23,7 +23,7 @@ Este projeto é um sistema de cadastro de produtos com um sistema de login desen
 2. Configure o banco de dados.
 3. Importe o script SQL fornecido no diretório `database` para criar as tabelas necessárias.
 4. Inicie o servidor PHP/Apache ou configure o seu servidor web para apontar para o diretório do projeto.
-5. Dentro da pasta do projeto abra um CMD e
+5. Dentro da pasta do projeto abra um CMD/PowerShell ou terminal do Linux e
 digite: `php spark serve` para iniciar o projeto.
 
 ## Configuração do Banco de Dados
